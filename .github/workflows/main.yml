@@ -7,12 +7,12 @@ env:
   test_string: 'hello world'
 
 jobs:
-  # hello_world:
-  #   name: hello world
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #   - name: hello world
-  #     run:  echo $test_string
+  hello_world:
+    name: hello world
+    runs-on: ubuntu-latest
+    steps:
+    - name: hello world
+      run:  echo $test_string
 
   publish:
     runs-on: ubuntu-latest
